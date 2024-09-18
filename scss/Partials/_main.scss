@@ -22,13 +22,11 @@ main {
   @include G-Space;
   .grid {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 1rem;
-    div {
-      width: 23%;
-      img {
-        width: 100%;
-      }
+    .card {
+      width: 22%;
     }
   }
 }

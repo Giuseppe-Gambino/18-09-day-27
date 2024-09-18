@@ -1,0 +1,23 @@
+.card {
+  background-color: white;
+  width: 300px;
+  border: 2px solid #0164fb;
+  border-radius: 15px;
+  overflow: hidden;
+  &:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  }
+  img {
+    width: 100%;
+  }
+  h2 {
+    margin: 20px 0 10px;
+    font-size: 1.5em;
+    color: #333;
+  }
+  p {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 20px;
+  }
+}
