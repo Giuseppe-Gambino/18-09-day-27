@@ -1,0 +1,23 @@
+main {
+  @include G-Space;
+}
+
+.hero {
+  @include floating;
+  max-height: 25rem;
+  display: flex;
+  align-items: center;
+  section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @include G-Space;
+    h1 {
+      @include title-big;
+      margin-bottom: 0;
+    }
+    img {
+      height: 10rem;
+    }
+  }
+}

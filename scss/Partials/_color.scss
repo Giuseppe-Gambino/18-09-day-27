@@ -1,0 +1,20 @@
+* {
+  color: #f4f4f4;
+}
+
+$BgColor: (
+  "purple": #0e6cff,
+  "orange": #ff8700,
+  "green": #4caf50,
+  "blue": #0164fb,
+);
+
+@each $name, $value in $BgColor {
+  .bg-#{$name} {
+    background-color: $value;
+  }
+}
+
+.bg-hero {
+  background-color: #0164fb;
+}

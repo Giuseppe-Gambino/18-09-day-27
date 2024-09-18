@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap");
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+$FontSizes: (
+  "xs": 10px,
+  "sm": 15px,
+  "md": 20px,
+  "lg": 25px,
+);
+
+@each $name, $value in $FontSizes {
+  .font-#{$name} {
+    font-size: $value;
+  }
+}

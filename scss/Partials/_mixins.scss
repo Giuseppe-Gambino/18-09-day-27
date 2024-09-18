@@ -1,0 +1,17 @@
+@mixin title-big {
+  font-family: "Rubik Mono One", monospace;
+  font-size: 3rem;
+  font-weight: 400;
+}
+
+@mixin floating($border-radius: 10px, $box-shadow: 0 5px 20px 6px rgb(83 83 83 / 40%), $border: none) {
+  border-radius: $border-radius;
+  box-shadow: $box-shadow;
+  border: $border;
+}
+
+@mixin G-Space {
+  width: 100%;
+  max-width: 1250px;
+  margin: auto;
+}

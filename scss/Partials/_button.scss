@@ -1,0 +1,26 @@
+.button-first {
+  background-color: rgb(81, 203, 255);
+  padding-block: 1rem;
+  padding-inline: 2rem;
+  border-radius: 15px;
+  border: 0;
+  font-family: "Rubik Mono One", monospace;
+  &:hover {
+    transition: 250ms;
+    transform: scale(1.1);
+  }
+}
+
+.button-second {
+  background-color: white;
+  padding-block: 1rem;
+  padding-inline: 2rem;
+  border: 20px;
+}
+
+.button-third {
+  background-color: white;
+  padding-block: 1rem;
+  padding-inline: 2rem;
+  border: 20px;
+}
