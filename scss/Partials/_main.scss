@@ -1,7 +1,3 @@
-main {
-  @include G-Space;
-}
-
 .hero {
   @include floating;
   max-height: 25rem;
@@ -18,6 +14,21 @@ main {
     }
     img {
       height: 10rem;
+    }
+  }
+}
+
+main {
+  @include G-Space;
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    div {
+      width: 23%;
+      img {
+        width: 100%;
+      }
     }
   }
 }

@@ -1,6 +1,7 @@
 header {
   position: sticky;
   top: 0;
+  @include floating(0);
   nav {
     @include G-Space;
     height: 5rem;

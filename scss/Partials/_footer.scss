@@ -1,0 +1,8 @@
+footer {
+  height: 5rem;
+  div {
+    @include G-Space;
+    display: flex;
+    justify-content: center;
+  }
+}
